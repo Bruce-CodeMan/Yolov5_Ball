@@ -25,3 +25,9 @@ pip install -r requirements.txt
 ```
 python train.py --data data/voc_ball.yaml --cfg models/yolov5s_ball.yaml --weights weights/yolov5s.pt --batch-size 16 --epochs 50 --workers 4
 ```
+
+## ==测试图片==
+
+```
+python detect.py --source ./testfiles/img1.jpg --weights runs/train/exp/weights/best.pt --conf-thres 0.3
+```
