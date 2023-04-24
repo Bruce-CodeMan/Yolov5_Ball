@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 ## **检测结果**
 
-<img src="./data/images/img.png">
+<img width="1172" alt="b7c729f0d552dc40560e4ccb3da61c9" src="https://user-images.githubusercontent.com/65518559/234010629-f67a7b2a-4422-4785-a42d-8d401edebcb9.png">
 
 https://user-images.githubusercontent.com/65518559/233912141-b72a8167-84e5-46c7-9f91-a83f95d04ff4.mp4
 
