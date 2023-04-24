@@ -11,6 +11,10 @@
 pip install -r requirements.txt
 ```
 
+## **检测结果**
+
+https://user-images.githubusercontent.com/65518559/233912141-b72a8167-84e5-46c7-9f91-a83f95d04ff4.mp4
+
 ## 数据集的训练
 
 ```
