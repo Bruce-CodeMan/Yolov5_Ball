@@ -16,4 +16,5 @@ pip install -r requirements.txt
 ```
 1. 将准备好的数据集放到根目录下,并解压
 2. 使用处理数据脚本prepare_data.py
+3. 修改data目录下的文件,voc_ball.yaml文件,改成自己的训练路径,类别编号
 ```
