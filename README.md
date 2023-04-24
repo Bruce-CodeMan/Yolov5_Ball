@@ -20,14 +20,26 @@ pip install -r requirements.txt
 4. 修改models目录下的文件yolov5s_ball.yaml, 修改类别的数目
 ```
 
-## ==开始训练==
+## **开始训练**
 
 ```
 python train.py --data data/voc_ball.yaml --cfg models/yolov5s_ball.yaml --weights weights/yolov5s.pt --batch-size 16 --epochs 50 --workers 4
 ```
 
-## ==测试图片==
+## **测试图片**
 
 ```
 python detect.py --source ./testfiles/img1.jpg --weights runs/train/exp/weights/best.pt --conf-thres 0.3
+```
+
+## **测试视频**
+
+```
+python detect.py --source ./testfiles/messi.mp4 --weights runs/train/exp/weights/best.pt --conf-thres 0.3
+```
+
+## **性能统计**
+
+```
+python val.py --data data/voc_ball.yaml --weights runs/train/exp/weights/best.pt --batch-size 16
 ```
